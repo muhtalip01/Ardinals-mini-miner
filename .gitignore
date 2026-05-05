@@ -1,0 +1,16 @@
+.env
+*.env
+__pycache__/
+*.pyc
+*.log
+logs/
+*.bak
+*.backup
+*.key
+wallet.json
+private_key*
+seed*
+*.sqlite
+*.db
+mini_ardi_seen_epochs.json
+ardi_commits.json
