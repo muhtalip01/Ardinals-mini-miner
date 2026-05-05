@@ -34,7 +34,7 @@ Botun amacı şudur:
 6. Reveal zamanı gelince reveal yapmak
 7. Uygunsa inscribe işlemini denemek
 
-Bot, Groq ve OpenRouter destekler.
+Bot Groq ve OpenRouter destekler.
 
 Önce Groq kullanılır. Groq rate limit veya hata verirse OpenRouter fallback olarak devreye girer.
 
@@ -683,10 +683,24 @@ Inscribe zamanı henüz gelmemiştir. Bot sonraki döngülerde tekrar kontrol ed
 
 ---
 
+## 23. Güvenlik Kontrolü
+
+Repo paylaşılmadan önce şu kontroller yapılmalıdır:
+
+```bash
+grep -R "sk-or-v1" .
+grep -R "gsk_" .
+grep -R "PRIVATE" .
+grep -R "private_key" .
+grep -R "seed" .
+grep -R "GROQ_API_KEY=" .
+grep -R "OPENROUTER_API_KEY=" .
+```
+
 
 ---
 
-## 23. Son Uyarılar
+## 24. Son Uyarılar
 
 Bu bot kazanç garanti etmez.
 
