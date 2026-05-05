@@ -36,9 +36,3 @@ API key, private key, seed phrase veya `.env` dosyanızı asla GitHub'a yükleme
 - OpenRouter API key, opsiyonel ama önerilir
 - Linux / WSL ortamı
 
-## Kurulum
-
-```bash
-git clone https://github.com/muhtalip01/Ardinals-mini-miner.git
-cd Ardinals-mini-miner
-pip install -r requirements.txt
